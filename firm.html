@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Магазин «ТехноКомплект»</title>
+  <link rel="stylesheet" href="style.css" title="Основний стиль" type="text/css">
+</head>
+<body>
+
+  <nav id="firm-nav">
+    <a href="menu.html" id="to-menu" name="to-menu" target="_self" tabindex="1" accesskey="m">Меню</a>
+  </nav>
+
+  <h1>Магазин <bdi id="firm-name">«ТехноКомплект»</bdi></h1>
+
+  <section>
+  <h2>Історія</h2>
+  <!-- compact — застарілий атрибут, браузери його ігнорують -->
+  <ol compact type="1" id="history-list">
+    <li class="history-item" id="h1" title="Рік заснування">2015 — відкриття першого магазину комп'ютерних аксесуарів.</li>
+    <li class="history-item" id="h2" title="Розширення асортименту">2017 — початок продажу процесорів і материнських плат.</li>
+    <li class="history-item" id="h3" title="Інтернет-магазин">2019 — запуск інтернет-магазину з доставкою по Україні.</li>
+    <li class="history-item" id="h4" title="Сервіс">2022 — відкриття сервісного центру та гарантійної майстерні.</li>
+    <li class="history-item" id="h5" title="Сьогодення">2025 — понад 5000 товарів в асортименті.</li>
+  </ol>
+  </section>
+
+  <section>
+  <h2 id="services">Асортимент</h2>
+  <!-- start у <ul> не існує в HTML, compact застарілий; браузер їх ігнорує -->
+  <ul compact start="1" class="service" title="Перелік товарів магазину" style="list-style-type: square;">
+    <li class="service-main" id="s1" title="Комплектуючі">Процесори (Intel, AMD)</li>
+    <li class="service-main" id="s2" title="Периферія">Монітори різних діагоналей</li>
+    <li class="service-main" id="s3" title="Накопичувачі">Жорсткі диски та SSD</li>
+    <li class="service-item" id="s4" title="Додатково">Клавіатури та комп'ютерні миші</li>
+    <li class="service-item" id="s5" title="Додатково">Кабелі, перехідники, флеш-накопичувачі</li>
+  </ul>
+  </section>
+
+  <section>
+  <h2>Працівники</h2>
+  <dl title="Список працівників магазину" style="margin-left: 0;">
+    <dt><bdi id="emp1">Коваленко Андрій</bdi> — директор</dt>
+    <dd title="Опис посади директора" class="term-desc">Керує магазином, визначає асортимент і домовляється з постачальниками.</dd>
+
+    <dt><bdi id="emp2">Шевченко Ірина</bdi> — менеджер з продажу</dt>
+    <dd title="Опис посади менеджера" class="term-desc">Консультує покупців, оформлює замовлення та гарантійні талони.</dd>
+
+    <dt><bdi id="emp3">Мельник Олег</bdi> — майстер сервісного центру</dt>
+    <dd title="Опис посади майстра" class="term-desc">Діагностує та ремонтує техніку за гарантією.</dd>
+  </dl>
+  </section>
+
+</body>
+</html>
